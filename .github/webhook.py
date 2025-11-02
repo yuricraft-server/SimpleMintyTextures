@@ -31,13 +31,14 @@ def main():
     embed = {
         "title": title,
         "color": color,
-        "description": f"[DOWNLOAD](<{asset_url}>)\n[VIEW RELEASE](<{release_url}>)"
+        "description": f"[Download](<{asset_url}>)\n[View Release](<{release_url}>)"
     }
 
     embed = {
         "username": "Yuri Inspector",
         "avatar_url": "https://cdn.discordapp.com/avatars/1427680032305971300/1fe529c06f7534ce9a30ceacd5c63c08.png?size=1024",
-        "embeds": [embed]
+        "embeds": [embed],
+        "content": "<@708865194700308540> <@1328678150342967308> update server resources :3"
     }
 
     json.dump(embed, sys.stdout)
