@@ -73,6 +73,34 @@
           "type": "minecraft:model",
           "model": "mintytex:item/osagebwaa"
         }
+      },
+      {
+        "when": "olives",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mintytex:item/olives"
+        }
+      },
+      {
+        "when": "pqhenri",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mintytex:item/pqhenri"
+        }
+      },
+      {
+        "when": "hamado",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mintytex:item/hamado"
+        }
+      },
+      {
+        "when": "lumi",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mintytex:item/lumi"
+        }
       }
     ],
     "fallback": {
