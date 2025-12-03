@@ -39,7 +39,7 @@ def main():
         "username": "Yuri Inspector",
         "avatar_url": "https://cdn.discordapp.com/avatars/1427680032305971300/1fe529c06f7534ce9a30ceacd5c63c08.png?size=1024",
         "embeds": [embed],
-        "content": "<@708865194700308540> <@1328678150342967308> update server resources :3"
+        "content": "These are the textures that are installed on the server,\nThe server will soon update to the latest textures."
     }
 
     json.dump(embed, sys.stdout)
